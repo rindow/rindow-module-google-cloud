@@ -1,0 +1,35 @@
+{
+    "name": "rindow/rindow-module-google-cloud",
+    "type": "library",
+    "description": "Rindow compatible google cloud components",
+    "keywords": ["rindow","framework","module","gcloud","google cloud"],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": "^7.2",
+        "interop-phpobjects/lenient-dao": "*",
+        "rindow-stdlib/src": "1.*",
+        "rindow-database-dao/src": "1.*",
+        "google/cloud-datastore": "^1.11"
+    },
+    "require-dev": {
+         "rindow-persistence-orm/src": "1.*",
+         "rindow-persistence-ormshell/src": "1.*",
+         "rindow-transaction/src": "1.*",
+         "rindow-aop/src": "1.*",
+         "rindow-event/src": "1.*",
+         "rindow-container/src": "1.*",
+         "rindow-annotation/src": "1.*",
+         "rindow-module-monolog/src": "1.*"
+    },
+    "suggest": {
+        "rindow/rindow-container": "It needs some service container",
+        "rindow/rindow-transaction": "It needs some transaction manager",
+        "rindow/rindow-persistence-orm": "When using the ORM Persistences",
+        "rindow/rindow-persistence-ormshell": "When using the ORM Persistences"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rindow\\Module\\Google\\Cloud\\": "src/"
+        }
+    }
+}
