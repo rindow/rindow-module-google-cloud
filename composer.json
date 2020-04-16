@@ -7,19 +7,19 @@
     "require": {
         "php": "^7.2",
         "interop-phpobjects/lenient-dao": "*",
-        "rindow-stdlib/src": "1.*",
-        "rindow-database-dao/src": "1.*",
+        "rindow/rindow-stdlib": "1.*",
+        "rindow/rindow-database-dao": "1.*",
         "google/cloud-datastore": "^1.11"
     },
     "require-dev": {
-         "rindow-persistence-orm/src": "1.*",
-         "rindow-persistence-ormshell/src": "1.*",
-         "rindow-transaction/src": "1.*",
-         "rindow-aop/src": "1.*",
-         "rindow-event/src": "1.*",
-         "rindow-container/src": "1.*",
-         "rindow-annotation/src": "1.*",
-         "rindow-module-monolog/src": "1.*"
+         "rindow/rindow-persistence-orm": "1.*",
+         "rindow/rindow-persistence-ormshell": "1.*",
+         "rindow/rindow-transaction": "1.*",
+         "rindow/rindow-aop": "1.*",
+         "rindow/rindow-event": "1.*",
+         "rindow/rindow-container": "1.*",
+         "rindow/rindow-annotation": "1.*",
+         "rindow/rindow-module-monolog": "1.*"
     },
     "suggest": {
         "rindow/rindow-container": "It needs some service container",
